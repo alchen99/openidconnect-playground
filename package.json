@@ -10,6 +10,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js --ignore ./sessions --verbose",
+        "debug": "nodemon --inspect index.js --ignore ./sessions --verbose",
         "build": "webpack",
         "watch": "webpack -w"
     },
